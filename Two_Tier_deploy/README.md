@@ -1,0 +1,52 @@
+# Two Tier deployment on Azure 
+
+*******************************************
+
+## Step 1 : Generate the SSH key
+
+* We need to generate the ssh key first to use with Azure. 
+* So open gitbash , cd into your ssh dolder and type the follwing command 
+
+```python
+ssh-keygen -t rsa -b 4096 -C "<YOUR_EMAIL>
+```
+
+* After its generated make sure toaccess the pem file so you can see your public key. : Yo ucan do that by the follwing command 
+
+```
+cat <keyname.pem>
+```
+
+* You should be able to see your full public key...keep this ready we going to need it for AZURE.
+
+## Step 2 : Log into Azure Portal 
+
+* Open your web browser and navigate to the Azure Portal.![](https://azure.microsoft.com/en-gb/free/search/?ef_id=_k_2a8b609977cc14f1919206b327a52ba3_k_&OCID=AIDcmm3bvqzxp1_SEM__k_2a8b609977cc14f1919206b327a52ba3_k_&msclkid=2a8b609977cc14f1919206b327a52ba3)
+* Enter your Azure account credentials (username and password) and click "Sign in".
+
+## Step 3 : Log into Azure Portal 
+
+* Open your web browser and navigate to the Azure Portal.![](https://azure.microsoft.com/en-gb/free/search/?ef_id=_k_2a8b609977cc14f1919206b327a52ba3_k_&OCID=AIDcmm3bvqzxp1_SEM__k_2a8b609977cc14f1919206b327a52ba3_k_&msclkid=2a8b609977cc14f1919206b327a52ba3)
+* Enter your Azure account credentials (username and password) and click "Sign in".
+
+## Step 4 : Navigate to resource group 
+
+* Click on resource groups. 
+* You should be presented with a page where you can click the basic tab.
+*  Once there make sure to pick the correct resource group(in our case it will be tech258)
+* Make sure to rename the key pair name. Its best practice it to call it the same name as how you named it in your .sh folder
+* Then click upload existing public key resource. 
+* Bring up gitbash and copy your public key.pem then paste it in the upload key box on Azure
+* Once done click submit 
+
+## Step 5 : Fill out correct tags 
+
+* After you have submitted you should have been presaented with a page called tags.
+* Its important that you change the name option to owner and the value option to your name
+  
+
+  
+
+
+
+
