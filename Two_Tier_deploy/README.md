@@ -118,9 +118,22 @@ Fill in the required details:
 
 Click review and create and you are finished!
 
-## Step 3 : Repeat step 2
+## Step 3 : Repeat step 2 to create your other VM!
 
-* Do exactly what you did again to vcreate the vm for your application.
+* Do exactly what you did again to create the vm for your application.
 
+## Step 4 : SSh into your VM
+
+* We need to SSh into our both Vms before we trigger our scripts to run our application 
+  
+
+* Click the connect tab like below :
+
+![](images/123.jpg)
+
+
+Then click into native SSh to conenct!
+
+****************************
 
 
