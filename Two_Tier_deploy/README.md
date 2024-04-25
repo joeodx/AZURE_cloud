@@ -45,8 +45,17 @@ cat <keyname.pem>
 * Its important that you change the name option to owner and the value option to your name
   
 
-  
+*********************************
 
+# Deploy your first virtual machine 
 
+## Step 1 : Create a virtual network (VNet)
+
+* Navigate to the Azure portal (https://portal.azure.com).
+* In the left-hand menu, click on "Create a resource."
+* Search for "Virtual network" and select it.
+* Click on "Create" to begin configuring the VNet.
+
+![](/images/12.jpg)
 
 
