@@ -83,7 +83,7 @@ cat <keyname.pem>
 
 ![](images/234.jpg)
 
-* Make sure to add your tags to **Owner** and yout value to your **name**
+* Make sure to add your tags. Name to **Owner** and your value to your **name**
 
 
 Review and create the VNet. 
@@ -93,15 +93,30 @@ Review and create the VNet.
 * Navigate to the Azure portal and Click on "Create a resource" and search for "Virtual machine." Select it.
 Fill in the required details:
 
-* This is going to be important when it comes to deploying our db and application 
+ 
   
-
-
-* your settings should look like this
+* Your basic tab should look like this :
   
 ![](images/77.jpg)
 
-* Tags: Add a tag for the owner.
+* Your disks tab should look like this :
+
+![](images/455.jpg)
+
+* You networking tab should look like this : 
+  
+![](images/76.jpg)
+
+
+* Your confgure network settings tab should look like this : 
+
+![](images/86.jpg)
+
+* It should look like this : 
+
+![](images/done.jpg)
+
+Click review and create and you are finished!
 
 ## Step 3 : Repeat step 2
 
