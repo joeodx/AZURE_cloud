@@ -1,5 +1,8 @@
 # Two Tier deployment on Azure 
 
+![](https://pendulum-it.com/wp-content/uploads/2020/05/Azure-logo-blue.jpg)
+
+
 *******************************************
 
 ## Step 1 : Generate the SSH key
@@ -21,17 +24,14 @@ cat <keyname.pem>
 
 ## Step 2 : Log into Azure Portal 
 
-* Open your web browser and navigate to the Azure Portal.![](https://azure.microsoft.com/en-gb/free/search/?ef_id=_k_2a8b609977cc14f1919206b327a52ba3_k_&OCID=AIDcmm3bvqzxp1_SEM__k_2a8b609977cc14f1919206b327a52ba3_k_&msclkid=2a8b609977cc14f1919206b327a52ba3)
+* Open your web browser and navigate to the Azure Portal.
 * Enter your Azure account credentials (username and password) and click "Sign in".
 
-## Step 3 : Log into Azure Portal 
 
-* Open your web browser and navigate to the Azure Portal.![](https://azure.microsoft.com/en-gb/free/search/?ef_id=_k_2a8b609977cc14f1919206b327a52ba3_k_&OCID=AIDcmm3bvqzxp1_SEM__k_2a8b609977cc14f1919206b327a52ba3_k_&msclkid=2a8b609977cc14f1919206b327a52ba3)
-* Enter your Azure account credentials (username and password) and click "Sign in".
-
-## Step 4 : Navigate to resource group 
+## Step 3  : Navigate to resource group 
 
 * Click on resource groups. 
+
 * You should be presented with a page where you can click the basic tab.
 *  Once there make sure to pick the correct resource group(in our case it will be tech258)
 * Make sure to rename the key pair name. Its best practice it to call it the same name as how you named it in your .sh folder
@@ -53,19 +53,38 @@ cat <keyname.pem>
 
 "VNet" typically refers to a Virtual Network. In the context of computing and networking, a Virtual Network (VNet) is a simulated network infrastructure that provides the same functionalities and capabilities as a physical network but is created using software rather than hardware.
 
-* Navigate to the Azure portal (https://portal.azure.com).
 * In the left-hand menu, click on "Create a resource."
-* Search for "Virtual network" and select it.
-* Click on "Create" to begin configuring the VNet.
+ * Search for "Virtual network" and select create.
+    
+![](images/121.jpg)
 
-![](images/12.jpg)
 
-* Fill in the following details:
- - Name: tech258-yourname-2-subnet-vnet
- - Address space: 10.0.0.0/16
+* Once created navigate to the basics tab and make sure the details are the same as the one below : 
+
+![](images/54.jpg)
+
+
+* Navigate to the ip address tab
   
+![](images/45.jpg)
+
+
+
+
+
 * Click on "Subnets" and add two subnets:
- ![](images/33.jpg)
+
+* The first one should be called **public-subnet** and the Address range should be **10.0.2.0/24**
+
+![alt text](images/34.jpg)
+
+
+* The second one should be called **private-subnet** and the Address range should be **10.0.3.0/24**
+
+![](images/234.jpg)
+
+* Make sure to add your tags to **Owner** and yout value to your **name**
+
 
 Review and create the VNet. 
 
@@ -76,7 +95,7 @@ Fill in the required details:
 
 * This is going to be important when it comes to deploying our db and application 
   
-![](images/6666.jpg)
+
 
 * your settings should look like this
   
