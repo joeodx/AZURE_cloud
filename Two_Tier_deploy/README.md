@@ -56,7 +56,7 @@ cat <keyname.pem>
 * Search for "Virtual network" and select it.
 * Click on "Create" to begin configuring the VNet.
 
-![](/images/12.jpg)
+![](images/12.jpg)
 
 * Fill in the following details:
  - Name: tech258-yourname-2-subnet-vnet
