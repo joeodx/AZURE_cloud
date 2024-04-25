@@ -51,6 +51,8 @@ cat <keyname.pem>
 
 ## Step 1 : Create a virtual network (VNet)
 
+"VNet" typically refers to a Virtual Network. In the context of computing and networking, a Virtual Network (VNet) is a simulated network infrastructure that provides the same functionalities and capabilities as a physical network but is created using software rather than hardware.
+
 * Navigate to the Azure portal (https://portal.azure.com).
 * In the left-hand menu, click on "Create a resource."
 * Search for "Virtual network" and select it.
@@ -63,14 +65,7 @@ cat <keyname.pem>
  - Address space: 10.0.0.0/16
   
 * Click on "Subnets" and add two subnets:
- Subnet 1:
-Name: public-subnet
-Address range: 10.0.2.0/24
-Subnet 2:
-Name: private-subnet
-Address range: 10.0.3.0/24
-
-* This is going to be important when it comes to deploying our db and application 
+ ![](images/33.jpg)
 
 Review and create the VNet. 
 
@@ -79,20 +74,19 @@ Review and create the VNet.
 * Navigate to the Azure portal and Click on "Create a resource" and search for "Virtual machine." Select it.
 Fill in the required details:
 
-* Virtual machine name: Choose a name for your VM.
-Region: Choose the desired region.
-Image: Ubuntu Pro 18.04 LTS - x64 Gen2
-Size: Standard_B1s
-Authentication type: SSH public key
-Username: adminuser
-SSH public key: Upload your SSH public key.
-Disks:
-OS disk type: Standard SSD
-Networking:
-Virtual network: Select the VNet created earlier (tech258-yourname-2-subnet-vnet).
-Subnet: Choose the public-subnet.
-Public IP: Choose "None" (assuming you don't need a public IP).
-Network security group: Create a new NSG and configure it to disallow MongoDB port.
-Management:
-Tags: Add a tag for the owner.
-Review and create the VM.
+* This is going to be important when it comes to deploying our db and application 
+  
+![](images/6666.jpg)
+
+* your settings should look like this
+  
+![](images/77.jpg)
+
+* Tags: Add a tag for the owner.
+
+## Step 3 : Repeat step 2
+
+* Do exactly what you did again to vcreate the vm for your application.
+
+
+
