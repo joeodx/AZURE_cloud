@@ -58,4 +58,41 @@ cat <keyname.pem>
 
 ![](/images/12.jpg)
 
+* Fill in the following details:
+ - Name: tech258-yourname-2-subnet-vnet
+ - Address space: 10.0.0.0/16
+  
+* Click on "Subnets" and add two subnets:
+ Subnet 1:
+Name: public-subnet
+Address range: 10.0.2.0/24
+Subnet 2:
+Name: private-subnet
+Address range: 10.0.3.0/24
 
+* This is going to be important when it comes to deploying our db and application 
+
+Review and create the VNet. 
+
+## Step 2 : Create your virtual machine
+
+* Navigate to the Azure portal and Click on "Create a resource" and search for "Virtual machine." Select it.
+Fill in the required details:
+
+* Virtual machine name: Choose a name for your VM.
+Region: Choose the desired region.
+Image: Ubuntu Pro 18.04 LTS - x64 Gen2
+Size: Standard_B1s
+Authentication type: SSH public key
+Username: adminuser
+SSH public key: Upload your SSH public key.
+Disks:
+OS disk type: Standard SSD
+Networking:
+Virtual network: Select the VNet created earlier (tech258-yourname-2-subnet-vnet).
+Subnet: Choose the public-subnet.
+Public IP: Choose "None" (assuming you don't need a public IP).
+Network security group: Create a new NSG and configure it to disallow MongoDB port.
+Management:
+Tags: Add a tag for the owner.
+Review and create the VM.
