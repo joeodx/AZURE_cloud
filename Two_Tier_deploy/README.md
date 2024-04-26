@@ -118,6 +118,17 @@ Fill in the required details:
 
 Click review and create and you are finished!
 
+
+## Bonus Step! Automating in with user data
+
+We can actually automate the whole process of creating our application and databse by posting our whole script in the user data section in advanced tab 
+
+* Should look like this : 
+
+
+![](images/888.jpg)
+
+
 ## Step 3 : Repeat step 2 to create your other VM!
 
 * Do exactly what you did again to create the vm for your application.

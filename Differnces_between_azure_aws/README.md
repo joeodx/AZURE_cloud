@@ -1,0 +1,1 @@
+# Differences betwwen AWS and Azure
