@@ -11,7 +11,7 @@ Yo ucan paste your entire script into your user data section in the advanced tab
 * Should look like this : 
 
 
-![](images/888.jpg)
+![](/Two_Tier_deploy/images/888.jpg)
 
 
 * Then click review and create
