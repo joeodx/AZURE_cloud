@@ -121,12 +121,21 @@ Click review and create and you are finished!
 
 ## Bonus Step! Automating in with user data
 
-We can actually automate the whole process of creating our application and databse by posting our whole script in the user data section in advanced tab 
+We can actually automate the whole process of creating our application and database by posting our whole script in the user data section in advanced tab 
 
 * Should look like this : 
 
 
 ![](images/888.jpg)
+
+
+* Then click review and create
+
+To check your database is running you will have to SSH into your vm using gitbash and check its status 
+
+REMEMBER it will take the same time to deploy so wait 3-5 minutes like if you did it manually. 
+
+You can check your applciation is running by SSH into it on gitbash or jsut put the public ip address in the URL.
 
 
 ## Step 3 : Repeat step 2 to create your other VM!
