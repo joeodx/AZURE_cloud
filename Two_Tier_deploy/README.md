@@ -152,7 +152,7 @@ You can check your applciation is running by SSH into it on gitbash or jsut put 
 ![](images/123.jpg)
 
 
-Then click into native SSh to conenct!
+Then click into native SSh to connenct!
 
 ****************************
 

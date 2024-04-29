@@ -30,5 +30,14 @@ We can create a Image(AWI in Azure) of our instance.
 
 what is a AWI? 
 * An AWI is a snapshot of the state of the operating system. Basically what ever we have configured in that instance, we can save and use on another one. This speeds up time as we dont have to go through the whole set up commands. 
+After clciking on the vreate a iamge tab you should be presented with this
   
 ![](/Two_Tier_deploy/images/1212.jpg)
+
+
+# Deploying an image
+
+
+
+
+then after this create your virtual machine normally 
