@@ -2,13 +2,13 @@
 
 We can actually automate the whole process of creating our application and database by posting our whole script in the user data section in advanced tab. 
 
-Make sure you have completed up until strep 2 on the two_tier_deploy file and then continue here.
+Make sure you have completed up until step 2 on the two_tier_deploy file and then continue here.
 
-Also MAKE SURE YOUR SCRIPT ACTUALLY WORKS!!!
+Also MAKE SURE YOUR SCRIPT ACTUALLY WORKS - check manually!!!
 
-Yo ucan paste your entire script into your user data section in the advanced tab when you are makign your VM
+You can paste your entire script into your user data section in the advanced tab when you are makign your VM
 
-* Should look like this : 
+* It should look like this : 
 
 
 ![](/Two_Tier_deploy/images/888.jpg)
