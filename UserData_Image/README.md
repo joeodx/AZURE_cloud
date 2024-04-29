@@ -16,7 +16,7 @@ You can paste your entire script into your user data section in the advanced tab
 
 * Then click review and create
 
-To check your database is running you will have to SSH into your vm using gitbash and check its status 
+To check your database is running you will have to SSH into your vm using gitbash and check its status by using the ```systemctl``` command.
 
 REMEMBER it will take the same time to deploy so wait 3-5 minutes like if you did it manually. 
 
