@@ -41,7 +41,7 @@ cat <keyname.pem>
 
 ## Step 5 : Fill out correct tags 
 
-* After you have submitted you should have been presaented with a page called tags.
+* After you have submitted you should have been presented with a page called tags.
 * Its important that you change the name option to owner and the value option to your name
   
 
