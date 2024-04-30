@@ -1,4 +1,4 @@
-# Automating in with user data
+# Automating with user data
 
 We can actually automate the whole process of creating our application and database by posting our whole script in the user data section in advanced tab. 
 
@@ -37,7 +37,7 @@ After clicking on the create a iamge tab you should be presented with this :
 **************************************************************
 # Deploying an image
 
-First of all set up a genralised image not a specialsied image. What is the differnce? 
+First of all set up a genralised image not a specialsied image. What is the difference? 
 
 * A generalised image is a template that does not contain specific configurations or data related to a particular workload.
 * A specialised image is a template that is pre-configured with specific configurations, applications, and data tailored for a particular workload.
@@ -48,8 +48,13 @@ First of all set up a genralised image not a specialsied image. What is the diff
 ![](/images/image.jpg)
 
 
-* We can now create a new virtual machine. 
-When we go into creating our VM settings click my images and click on the image you created.
+* Make sure your settigns are like this : 
+  
+![](/images/replaced.jpg)
+
+
+Once you have changed the name of your image click review and create!
+
 
 *********************************
 
