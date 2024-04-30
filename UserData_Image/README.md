@@ -1,4 +1,5 @@
 # Automating with user data
+*************************
 
 We can actually automate the whole process of creating our application and database by posting our whole script in the user data section in advanced tab. 
 
@@ -24,7 +25,7 @@ You can check your applciation is running by SSH into it on gitbash or jsut put 
 
 *******************************************
 
-# Creating user image 
+# Creating a user image 
 
 We can create a Image(AWI in Azure) of our instance. 
 
@@ -32,10 +33,8 @@ what is a AWI?
 * An AWI is a snapshot of the state of the operating system. Basically what ever we have configured in that instance, we can save and use on another one. This speeds up time as we dont have to go through the whole set up commands. 
 After clicking on the create a iamge tab you should be presented with this :
   
-![](/Two_Tier_deploy/images/1212.jpg)
 
-**************************************************************
-# Step 1 : Deploying an image
+## Step 1 : Deploying an image
 
 First of all set up a genralised image not a specialsied image. What is the difference? 
 

@@ -13,22 +13,25 @@
 ![](/images/added1.jpg)
 
 
-* Now you can edit and rearrange teh dashboard to your taste.
+Now you can edit and rearrange teh dashboard to your taste.
+
 ![](/images/added2.jpg)
 
 
-* You can also configure the charts to your liking. 
+You can also configure the charts to your liking. 
+
 ![](/images/added3.jpg)
 
 *********************************************************************
 
 ## Load testing with the package Apache 
 
-If you want to test how many requets your application can get, you need tp laod test
+* If you want to test how many requets your application can get, you need to do load test. 
+* The main objective of a load test is to determine the system's behavior concerning its response time, throughput, and resource utilization when subjected to various levels of simulated user activity or workload.
 
 * First of all SSH into your app instance on gitbash
   
-Then type the following command to install Apache
+* Then type the following command to install Apache
 
 ```
 sudo apt-get install apache2-utils
@@ -39,7 +42,7 @@ sudo apt-get install apache2-utils
   ab -n 1000 -c 100 http://20.90.163.1
   ```
 
-  the n value = the total requets and the c value = how many request you are making at one time. 
+  * the n value = the total requets and the c value = how many request you are making at one time. 
 
 You can change this value to your liking.
 
@@ -54,11 +57,13 @@ To create an alert on your instance dashboard go all the way down the left side 
 
 ![](/images/alert.jpg)
 
-* Press create and add the alert logic you want implmented. In this case if its an amount of CPU gets used: 
+* Press create and add the alert logic you want implmented. In this case if its an amount of CPU gets used. 
+* The operator is changed to greather than and the threshold value to 6.
+   
 
 ![](/images/alert2.jpg)
 
-Now if the CPU geta above your option you should recieve a email alerting you.
+* Now if the CPU is greater than 6 above you should recieve a email alerting you. 
 
 ![](/images/email.jpg)
 
