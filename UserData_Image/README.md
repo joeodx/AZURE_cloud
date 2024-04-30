@@ -42,9 +42,11 @@ First of all set up a genralised image not a specialsied image. What is the diff
  A specialised image is a template that is pre-configured with specific configurations, applications, and data tailored for a particular workload.
 
 
-* First of all ssh into your instance on gitbash 
+1. First of all ssh into your instance on gitbash 
 
-* You need to run the command '''waagent -deprovision+user''' which is a command used in Azure virtual machines (VMs) to prepare the VM for image capture or to generalize the VM before creating a custom image. Here's what each part of the command does:
+2. You need to run the command '''waagent -deprovision+user'''
+   
+**This is a command used in Azure virtual machines (VMs) to prepare the VM for image capture or to generalize the VM before creating a custom image. Here's what each part of the command**does:
   
 
 ![](/images/terminalc.jpg)
@@ -53,20 +55,20 @@ First of all set up a genralised image not a specialsied image. What is the diff
 
 <br>
 
-* Once you have done this make sure to goi back to your instance overview on Azure and click capture!
+3. Once you have done this make sure to goi back to your instance overview on Azure and click capture!
 
 ![](/images/image.jpg)
 
 
-* Once you have done that Make sure your settings are like this : 
+4. Once you have done that Make sure your settings are like this : 
   
 ![](/images/replaced.jpg)
 
 
-Once you have changed the name of your image click review and create!
+5. Once you have changed the name of your image click review and create!
 
 
-## Step two : Create a new VM
+## Step 2 : Create a new VM
 
 * Set up a nerw Virtual machine like normal but instead of clicking the normal ubuntu client click on see all images : 
 
@@ -76,9 +78,9 @@ Once you have changed the name of your image click review and create!
 
 ## Step 3 SSH in and check 
 
-* SSh into your isntance on gitbash and see if your database or applciation is workking. 
+1. SSh into your isntance on gitbash and see if your database or applciation is workking. 
 
-* You can use the ```cat /var/log/cloud-init-output.log``` command to check if the applciation had loaded.
+2.  You can use the ```cat /var/log/cloud-init-output.log``` command to check if the applciation had loaded.
 
 
 ******************************************
