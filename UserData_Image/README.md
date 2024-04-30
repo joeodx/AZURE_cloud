@@ -37,7 +37,21 @@ After clicking on the create a iamge tab you should be presented with this :
 
 # Deploying an image
 
+First of all set up a genralised image not a specialsied image. What is the differnce? 
+
+* A generalised image is a template that does not contain specific configurations or data related to a particular workload.
+* A specialised image is a template that is pre-configured with specific configurations, applications, and data tailored for a particular workload.
+
+
+* First of all go on your instnace overview page and click capture tab : 
+
+![](/images/image.jpg)
+
+
+* We can now create a new virtual machine. 
+When we go into creating our VM settings click my images and click on the image you created.
+
+*********************************
 
 
 
-then after this create your virtual machine normally 
