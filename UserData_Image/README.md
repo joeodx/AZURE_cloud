@@ -39,20 +39,27 @@ After clicking on the create a iamge tab you should be presented with this :
 
 First of all set up a genralised image not a specialsied image. What is the difference? 
 
-* A generalised image is a template that does not contain specific configurations or data related to a particular workload.
-* A specialised image is a template that is pre-configured with specific configurations, applications, and data tailored for a particular workload.
+ A generalised image is a template that does not contain specific configurations or data related to a particular workload.
+ A specialised image is a template that is pre-configured with specific configurations, applications, and data tailored for a particular workload.
 
 
 * First of all ssh into your instance on gitbash 
 
-* You need to install the correct passage in 
+* You need to run the command '''waagent -deprovision+user''' which is a command used in Azure virtual machines (VMs) to prepare the VM for image capture or to generalize the VM before creating a custom image. Here's what each part of the command does:
+  
 
 ![](/images/terminalc.jpg)
+
+
+
+<br>
+
+* Once you have done this make sure to goi back to your instance overview on Azure and click capture!
 
 ![](/images/image.jpg)
 
 
-* Make sure your settings are like this : 
+* Once you have done that Make sure your settings are like this : 
   
 ![](/images/replaced.jpg)
 
