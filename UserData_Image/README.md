@@ -35,7 +35,7 @@ After clicking on the create a iamge tab you should be presented with this :
 ![](/Two_Tier_deploy/images/1212.jpg)
 
 **************************************************************
-# Deploying an image
+# Step 1 : Deploying an image
 
 First of all set up a genralised image not a specialsied image. What is the difference? 
 
@@ -67,7 +67,22 @@ First of all set up a genralised image not a specialsied image. What is the diff
 Once you have changed the name of your image click review and create!
 
 
-*********************************
+## Step two : Create a new VM
+
+* Set up a nerw Virtual machine like normal but instead of clicking the normal ubuntu client click on see all images : 
+
+  ![](/images/addedmore.jpg)
+
+* Find your virtual machien yu have created and select it. After this compelte the rest of the set up as usual. 
+
+## Step 3 SSH in and check 
+
+* SSh into your isntance on gitbash and see if your database or applciation is workking. 
+
+* You can use the ```cat /var/log/cloud-init-output.log``` command to check if the applciation had loaded.
+
+
+******************************************
 
 
 
