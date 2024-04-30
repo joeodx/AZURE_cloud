@@ -11,7 +11,7 @@ You can paste your entire script into your user data section in the advanced tab
 * It should look like this : 
 
 
-![](/Two_Tier_deploy/images/11211.jpg)
+![](/images/11211.jpg)
 
 
 * Then click review and create
@@ -34,7 +34,7 @@ After clicking on the create a iamge tab you should be presented with this :
   
 ![](/Two_Tier_deploy/images/1212.jpg)
 
-
+**************************************************************
 # Deploying an image
 
 First of all set up a genralised image not a specialsied image. What is the differnce? 
