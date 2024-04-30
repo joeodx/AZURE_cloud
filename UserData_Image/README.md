@@ -43,12 +43,16 @@ First of all set up a genralised image not a specialsied image. What is the diff
 * A specialised image is a template that is pre-configured with specific configurations, applications, and data tailored for a particular workload.
 
 
-* First of all go on your instance overview page and click capture tab : 
+* First of all ssh into your instance on gitbash 
+
+* You need to install the correct passage in 
+
+![](/images/terminalc.jpg)
 
 ![](/images/image.jpg)
 
 
-* Make sure your settigns are like this : 
+* Make sure your settings are like this : 
   
 ![](/images/replaced.jpg)
 
