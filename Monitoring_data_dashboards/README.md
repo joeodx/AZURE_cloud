@@ -2,23 +2,23 @@
 
 ## How to set up a dashboard in azure? 
 
-* In azure click on your instance, go to overview. There you can select the monitoring tab.
+1. In azure click on your instance, go to overview. There you can select the monitoring tab.
 
 ![](/images/monitor.jpg)
 
 
-* you can choose what graphs you want to be displayed on your dashboard
+2. You can choose what graphs you want to be displayed on your dashboard
 
 
 ![](/images/added1.jpg)
 
 
-Now you can edit and rearrange teh dashboard to your taste.
+3. Now you can edit and rearrange teh dashboard to your taste.
 
 ![](/images/added2.jpg)
 
 
-You can also configure the charts to your liking. 
+4. You can also configure the charts to your liking. 
 
 ![](/images/added3.jpg)
 
@@ -29,41 +29,41 @@ You can also configure the charts to your liking.
 * If you want to test how many requets your application can get, you need to do load test. 
 * The main objective of a load test is to determine the system's behavior concerning its response time, throughput, and resource utilization when subjected to various levels of simulated user activity or workload.
 
-* First of all SSH into your app instance on gitbash
+1. First of all SSH into your app instance on gitbash
   
-* Then type the following command to install Apache
+2.  Then type the following command to install Apache
 
 ```
 sudo apt-get install apache2-utils
 ```
 
-* Once you have done that you can load test your website wit hthe follwing commmand 👍
+3.  Once you have done that you can load test your website wit hthe follwing commmand 👍
   ```
   ab -n 1000 -c 100 http://20.90.163.1
   ```
 
-  * the n value = the total requets and the c value = how many request you are making at one time. 
+  ***The n value = the total requets and the c value = how many request you are making at one time.***
 
-You can change this value to your liking.
+4. You can change this value to your liking.
 
-Then have a look at your CPU used chart and seee the results
+5. Then have a look at your CPU used chart on your dashboard and seee the results!
 
 ![](/images/texting.jpg)
 ***************************************************
 
 ## How to set up a alert 
 
-To create an alert on your instance dashboard go all the way down the left side bar to alert and click on it : 
+1. To create an alert on your instance dashboard go all the way down the left side bar to alert and click on it : 
 
 ![](/images/alert.jpg)
 
-* Press create and add the alert logic you want implmented. In this case if its an amount of CPU gets used. 
-* The operator is changed to greather than and the threshold value to 6.
+2. Press create and add the alert logic you want implmented. In this case if its an amount of CPU gets used. 
+3. The operator is changed to greather than and the threshold value to 6.
    
 
 ![](/images/alert2.jpg)
 
-* Now if the CPU is greater than 6 above you should recieve a email alerting you. 
+4. Now if the CPU is greater than 6 above you should recieve a email alerting you if yur CPU goes over 6% like below. 
 
 ![](/images/email.jpg)
 
