@@ -60,4 +60,6 @@ To create an alert on your instance dashboard go all the way down the left side 
 
 Now if the CPU geta above your option you should recieve a email alerting you.
 
+![](/images/email.jpg)
+
 **********************************
