@@ -100,13 +100,15 @@ ssh -i ~/.ssh/tech258-joeod-az-key adminuser@10.0.2.7
 
 * you have a private Ip at the end of the key. You can access this from outside your network, so you need to go through the load balancer.
   
-The lod balance only sends traffic to the healthy instance so ther ewill be no disruption to the end user. 
+The load balancer only sends traffic to the healthy instance so ther ewill be no disruption to the end user. 
 
-1. Now change the provate ip adress to the public ip adress of the load balancer and then -p port 0f 50001 : 
+3. Now change the provate ip adress to the public ip adress of the load balancer and then -p port 0f 50001 : 
 
 ```
 ssh -i ~/.ssh/tech258-joeod-az-key -p 50001 adminuser@http://4.158.76.75/
 ```
-4. Now SSH into your unhealthy instance with that command. 
+4. Now SSH into your unhealthy instance with that command. You can trobleshoot what the issues is. 
+
+**********************
 
 
