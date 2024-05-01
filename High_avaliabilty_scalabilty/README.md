@@ -4,6 +4,10 @@
 
 By leveraging Azure VM Scale Sets, you can achieve both high availability and scalability for your applications, ensuring that they remain resilient to failures and can seamlessly handle varying levels of demand.
 
+* **High availabilty** is vital for popular, public-facing cloud services, and is a key metric for DevOps engineers. We need to ensure that services are consistently accessible and operational, minimizing downtime and service disruptions.
+
+* **Scalability** allows our application to meet variying demand. We can scale up capacity when our application is seeing a lot of traffic, and scale down the number of virtual machines when we are seeing less demand.
+
 ![](/images/HIAV.jpg)
 
 
