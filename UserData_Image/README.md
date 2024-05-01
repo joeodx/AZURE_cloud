@@ -74,13 +74,16 @@ First of all set up a genralised image not a specialsied image. What is the diff
 
   ![](/images/addedmore.jpg)
 
-* Find your virtual machien you have created and select it. After this compelte the rest of the set up as usual. 
+* Find your virtual machine you have created and select it. After this compelte the rest of the set up as usual. 
 
 ## Step 3 SSH in and check 
 
-1. SSh into your isntance on gitbash and see if your database or applciation is workking. 
+1. SSh into your instance on gitbash and see if your database or applciation is workking. 
 
 2.  You can use the ```cat /var/log/cloud-init-output.log``` command to check if the applciation had loaded.
+   
+
+Your VM should be running like ususal but now you have a image created it should load faster!
 
 
 ******************************************
