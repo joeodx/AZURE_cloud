@@ -86,7 +86,7 @@ echo done
 
 # Part 2 : How to create your Azure VM Scale Set 
 
-1. Now your two isntances should be running. check the instance tab on your left hand side 
+1. Now your two instances should be running. check the instance tab on your left hand side 
 
 ![](/images/scr.jpg)
 
@@ -101,6 +101,8 @@ echo done
 1. Stop one of your instances then run it again. Due to the app not being able to run the script your instance should have a health state of unhealthy like below : 
 
 ![](/images/unhealthy.jpg)
+
+* Remember you configured your laoder settings to check every 10 minutes for updates. So this will be how long at least until you get an update on the health state.
 
 2. Go into the unhealthy instance get the ssh key from the connect page  like below. Copy that into a word document : 
 ```
