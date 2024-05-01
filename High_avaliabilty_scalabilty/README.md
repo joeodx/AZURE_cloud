@@ -41,7 +41,7 @@ Before you get started make sure your custom image is working properly. This is 
 
 ![](/images/imageadded.jpg)
 
-6. next cchange your virtual network to your own and make sure you have the correct ports in the network interface 
+6. next change your virtual network to your own and make sure you have the correct ports in the network interface 
 
 ![](/images/network.jpg)
 
@@ -51,7 +51,12 @@ Before you get started make sure your custom image is working properly. This is 
 
 **A load balancer is a device or software application that distributes incoming network traffic or workload across multiple servers or resources. Its primary purpose is to ensure that no single server gets overwhelmed by handling too much traffic or workload, thereby optimizing resource utilization, maximizing throughput, minimizing response time, and ensuring high availability and reliability of services.**
 
-8. Go to user data box and type in the following command 
+
+8. Makesure you have these settings for health : 
+
+![](/images/screa.jpg)
+
+9.  Go to user data box and type in the following command 
 
 ```
 !/bin/bash
@@ -73,7 +78,7 @@ pm2 start app.js app
 echo done
 ```
 
-9. Click review and create and you should be taken to the deployment page after at least 30 seconds 
+10. Click review and create and you should be taken to the deployment page after at least 30 seconds 
 
 ![](/images/deploymentready.jpg)
 
