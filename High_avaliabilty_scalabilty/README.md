@@ -52,7 +52,7 @@ Before you get started make sure your custom image is working properly. This is 
 **A load balancer is a device or software application that distributes incoming network traffic or workload across multiple servers or resources. Its primary purpose is to ensure that no single server gets overwhelmed by handling too much traffic or workload, thereby optimizing resource utilization, maximizing throughput, minimizing response time, and ensuring high availability and reliability of services.**
 
 
-8. Makesure you have these settings for health : 
+8. Make sure you have these settings for health : 
 
 ![](/images/screa.jpg)
 
