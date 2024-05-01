@@ -97,10 +97,16 @@ echo install pm2
 pm2 start app.js app
 echo done
 ```
+* If you are connecting to a datbase you also need to configure the enviorment variable. Add this command in and change the private ip address to the one your database owns
 
-  
+```
+echo set DB_HOST env var
+export DB_HOST=mongodb://10.0.3.4:27017/posts
+echo done!
+```
+******************************************
 
-## Step 3 SSH in and check 
+## Step 3 SSH in and check or use ip address
 
 1. SSh into your instance on gitbash and see if your database or applciation is working or just simply copy the public ip adress and paste it into your url. 
 
