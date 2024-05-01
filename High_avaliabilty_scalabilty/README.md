@@ -66,3 +66,7 @@ echo install pm2
 pm2 start app.js app
 echo done
 ```
+
+9. Click review and create!
+
+*************************************
