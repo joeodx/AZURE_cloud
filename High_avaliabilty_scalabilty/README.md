@@ -45,6 +45,8 @@ Before you get started make sure your custom image is working properly. This is 
 
 ![](/images/addedra.jpg)
 
+**A load balancer is a device or software application that distributes incoming network traffic or workload across multiple servers or resources. Its primary purpose is to ensure that no single server gets overwhelmed by handling too much traffic or workload, thereby optimizing resource utilization, maximizing throughput, minimizing response time, and ensuring high availability and reliability of services.**
+
 8. Go to user data box and type in the following command 
 
 ```
@@ -73,7 +75,7 @@ echo done
 
 *************************************
 
-# Part 2 
+# Part 2 : How to create your Azure VM Scale Set 
 
 1. Now your two isntances should be running. check the instance tab on your left hand side 
 
@@ -82,3 +84,5 @@ echo done
 2. Copy the public address of both of them to put in your URL to see if they are both working
 
  ![](/images/screenshot%20of%20working%20app.jpg)
+
+4.
