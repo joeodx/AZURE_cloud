@@ -85,4 +85,12 @@ echo done
 
  ![](/images/screenshot%20of%20working%20app.jpg)
 
-4.
+# Part 3 : Dealing with a unhealthy instance
+
+************************
+
+1. Stop one of your isntances then run it again. Due to the app not being able to run the script your instance should have a health state of unhealthy like below : 
+
+![](/images/unhealthy.jpg)
+
+2. 
