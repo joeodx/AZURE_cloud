@@ -45,4 +45,24 @@ Before you get started make sure your custom image is working properly. This is 
 
 ![](/images/addedra.jpg)
 
-8. 
+8. Go to user data box and type in the following command 
+
+```
+!/bin/bash
+
+echo cd app folder
+cd repo/app
+echo done!
+
+echo install npm
+npm install
+echo done!
+
+echo killed back
+pm2 kill
+echo done
+
+echo install pm2
+pm2 start app.js app
+echo done
+```
