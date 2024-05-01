@@ -120,7 +120,6 @@ ssh -i ~/.ssh/tech258-joeod-az-key -p 50001 adminuser@http://4.158.76.75/
 ```
 4. Now SSH into your unhealthy instance with that command. You can trobleshoot what the issue is. 
 
-<br> 
 
 # Part 4 : Deleting a VM scale Set and all its connecting parts
 *******************
