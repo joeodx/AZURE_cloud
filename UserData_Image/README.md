@@ -12,7 +12,7 @@ You can paste your entire script into your user data section in the advanced tab
 * It should look like this : 
 
 
-![](/images/11211.jpg)
+![](/images/121.jpg)
 
 
 * Then click review and create
