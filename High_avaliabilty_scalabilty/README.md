@@ -89,7 +89,7 @@ echo done
 
 ************************
 
-1. Stop one of your isntances then run it again. Due to the app not being able to run the script your instance should have a health state of unhealthy like below : 
+1. Stop one of your instances then run it again. Due to the app not being able to run the script your instance should have a health state of unhealthy like below : 
 
 ![](/images/unhealthy.jpg)
 
@@ -109,6 +109,9 @@ ssh -i ~/.ssh/tech258-joeod-az-key -p 50001 adminuser@http://4.158.76.75/
 ```
 4. Now SSH into your unhealthy instance with that command. You can trobleshoot what the issues is. 
 
-**********************
+<br> 
 
+# Part 4 : Deleting a VM scale Set and all its connecting parts
+*******************
 
+1. Click on 
