@@ -1,4 +1,5 @@
 # Monitoring data and responding to traffic on Azure 
+**************************
 
 ## How to set up a dashboard in azure? 
 
@@ -64,6 +65,8 @@ sudo apt-get install apache2-utils
 ![](/images/alert2.jpg)
 
 4. Now if the CPU is greater than 6 above you should recieve a email alerting you if yur CPU goes over 6% like below. 
+
+%. You can test the alert by using the Apache commands you learnt earlier. 
 
 ![](/images/email.jpg)
 
