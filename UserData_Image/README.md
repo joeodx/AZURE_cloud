@@ -74,7 +74,7 @@ First of all set up a genralised image not a specialsied image. What is the diff
 
   ![](/images/addedmore.jpg)
 
-* Find your virtual machien yu have created and select it. After this compelte the rest of the set up as usual. 
+* Find your virtual machien you have created and select it. After this compelte the rest of the set up as usual. 
 
 ## Step 3 SSH in and check 
 
