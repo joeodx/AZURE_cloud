@@ -109,7 +109,7 @@ echo done
 ssh -i ~/.ssh/tech258-joeod-az-key adminuser@10.0.2.7
 ```
 
-* you have a private Ip at the end of the key. You can access this from outside your network, so you need to go through the load balancer.
+* You have a private Ip at the end of the key. You can access this from outside your network, so you need to go through the load balancer.
   
 The load balancer only sends traffic to the healthy instance so ther ewill be no disruption to the end user. 
 
