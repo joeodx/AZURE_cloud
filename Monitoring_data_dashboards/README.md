@@ -37,7 +37,7 @@
 sudo apt-get install apache2-utils
 ```
 
-3.  Once you have done that you can load test your website wit hthe follwing commmand 👍
+3.  Once you have done that you can load test your website wit hthe following commmand 👍
   ```
   ab -n 1000 -c 100 http://20.90.163.1
   ```
