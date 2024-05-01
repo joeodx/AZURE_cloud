@@ -114,4 +114,6 @@ ssh -i ~/.ssh/tech258-joeod-az-key -p 50001 adminuser@http://4.158.76.75/
 # Part 4 : Deleting a VM scale Set and all its connecting parts
 *******************
 
-1. Click on 
+1. Delete scale set app first
+2. Then the load balancer 
+3. Then Delete the ip adress 
