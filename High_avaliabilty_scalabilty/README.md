@@ -67,6 +67,8 @@ pm2 start app.js app
 echo done
 ```
 
-9. Click review and create!
+9. Click review and create and you should be taken to the deployment page after at least 30 seconds 
+
+![](/images/deploymentready.jpg)
 
 *************************************
