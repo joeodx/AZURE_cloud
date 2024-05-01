@@ -53,68 +53,68 @@ cat <keyname.pem>
 
 "VNet" typically refers to a Virtual Network. In the context of computing and networking, a Virtual Network (VNet) is a simulated network infrastructure that provides the same functionalities and capabilities as a physical network but is created using software rather than hardware.
 
-* In the left-hand menu, click on "Create a resource."
- * Search for "Virtual network" and select create.
+1. In the left-hand menu, click on "Create a resource."
+2. Search for "Virtual network" and select create.
     
-![](images/121.jpg)
+![](/images/121.jpg)
 
 
-* Once created navigate to the basics tab and make sure the details are the same as the one below : 
+3. Once created navigate to the basics tab and make sure the details are the same as the one below : 
 
-![](images/54.jpg)
+![](/images/54.jpg)
 
 
-* Navigate to the ip address tab
+4. Navigate to the ip address tab
   
-![](images/45.jpg)
+![](/images/45.jpg)
 
 
 
 
 
-* Click on "Subnets" and add two subnets:
+5. Click on "Subnets" and add two subnets:
 
-* The first one should be called **public-subnet** and the Address range should be **10.0.2.0/24**
+6. The first one should be called **public-subnet** and the Address range should be **10.0.2.0/24**
 
-![alt text](images/34.jpg)
+![alt text](/images/34.jpg)
 
 
-* The second one should be called **private-subnet** and the Address range should be **10.0.3.0/24**
+7. The second one should be called **private-subnet** and the Address range should be **10.0.3.0/24**
 
-![](images/234.jpg)
+![](/images/234.jpg)
 
-* Make sure to add your tags. Name to **Owner** and your value to your **name**
+8. Make sure to add your tags. Name to **Owner** and your value to your **name**
 
 
 Review and create the VNet. 
 
 ## Step 2 : Create your virtual machine
 
-* Navigate to the Azure portal and Click on "Create a resource" and search for "Virtual machine." Select it.
+1. Navigate to the Azure portal and Click on "Create a resource" and search for "Virtual machine." Select it.
 Fill in the required details:
 
  
   
-* Your basic tab should look like this :
+2. Your basic tab should look like this :
   
-![](images/77.jpg)
+![](/images/77.jpg)
 
-* Your disks tab should look like this :
+3. Your disks tab should look like this :
 
-![](images/455.jpg)
+![](/images/455.jpg)
 
-* You networking tab should look like this : 
+4. You networking tab should look like this : 
   
-![](images/76.jpg)
+![](/images/76.jpg)
 
 
-* Your confgure network settings tab should look like this : 
+5. Your confgure network settings tab should look like this : 
 
-![](images/86.jpg)
+![](/images/86.jpg)
 
-* It should look like this : 
+6. It should look like this : 
 
-![](images/done.jpg)
+![](/images/done.jpg)
 
 Click review and create and you are finished!
 
@@ -123,13 +123,13 @@ Click review and create and you are finished!
 
 We can actually automate the whole process of creating our application and database by posting our whole script in the user data section in advanced tab 
 
-* Should look like this : 
+1. Should look like this : 
 
 
-![](images/888.jpg)
+![](/images/888.jpg)
 
 
-* Then click review and create
+2. Then click review and create
 
 To check your database is running you will have to SSH into your vm using gitbash and check its status 
 
@@ -149,7 +149,7 @@ You can check your applciation is running by SSH into it on gitbash or jsut put 
 
 * Click the connect tab like below :
 
-![](images/123.jpg)
+![](/images/123.jpg)
 
 
 Then click into native SSh to connenct!
