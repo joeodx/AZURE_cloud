@@ -72,3 +72,13 @@ echo done
 ![](/images/deploymentready.jpg)
 
 *************************************
+
+# Part 2 
+
+1. Now your two isntances should be running. check the instance tab on your left hand side 
+
+![](/images/scr.jpg)
+
+2. Copy the public address of both of them to put in your URL to see if they are both working
+
+ ![](/images/screenshot%20of%20working%20app.jpg)
