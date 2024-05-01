@@ -93,4 +93,9 @@ echo done
 
 ![](/images/unhealthy.jpg)
 
-2. 
+2. Go into the unhealthy instance get the ssh key from the connect page  like below. Copy that into a word document : 
+```
+ssh -i ~/.ssh/tech258-joeod-az-key adminuser@10.0.2.7
+```
+3. 
+
