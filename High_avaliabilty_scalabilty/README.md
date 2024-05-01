@@ -1,3 +1,5 @@
-# High avalaibilty and scaliabilty with Azure
+# High avalaibilty and scaliabilty using a Azure VM scale set
 
+****************************************
 
+![](/IMAGES/HIAV.jpg)
