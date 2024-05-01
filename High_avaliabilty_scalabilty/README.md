@@ -102,7 +102,7 @@ echo done
 
 ![](/images/unhealthy.jpg)
 
-* Remember you configured your laoder settings to check every 10 minutes for updates. So this will be how long at least until you get an update on the health state.
+* Remember you configured your loader settings to check every 10 minutes for updates. So this will be how long at least until you get an update on the health state.
 
 2. Go into the unhealthy instance get the ssh key from the connect page  like below. Copy that into a word document : 
 ```
