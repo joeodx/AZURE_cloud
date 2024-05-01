@@ -76,11 +76,38 @@ First of all set up a genralised image not a specialsied image. What is the diff
 
 * Find your virtual machine you have created and select it. After this compelte the rest of the set up as usual. 
 
+* Then add this code to your user data as you need to start it when its deployed. 
+
+```
+#!/bin/bash
+
+echo cd app folder
+cd repo/app
+echo done!
+
+echo install npm
+npm install
+echo done!
+
+echo killed back
+pm2 kill
+echo done
+
+echo install pm2
+pm2 start app.js app
+echo done
+```
+
+  
+
 ## Step 3 SSH in and check 
 
-1. SSh into your instance on gitbash and see if your database or applciation is workking. 
+1. SSh into your instance on gitbash and see if your database or applciation is working or just simply copy the public ip adress and paste it into your url. 
 
-2.  You can use the ```cat /var/log/cloud-init-output.log``` command to check if the applciation had loaded.
+
+![](/images/screenshot%20of%20working%20app.jpg)
+
+2.  You can use the ```cat /var/log/cloud-init-output.log``` command when you ssh into your instanceto check if the applciation had loaded.
    
 
 Your VM should be running like ususal but now you have a image created it should load faster!
