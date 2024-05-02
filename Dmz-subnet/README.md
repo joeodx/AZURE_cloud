@@ -36,4 +36,14 @@ We need to know how to set up a 3 subnet architecture. This will add security an
 
 ![](/images/addedd.jpg)
 
+## Part 2 - set up NVA Vm
 
+1. Now that you have set up your subnet go to your images and click on your ```db-deply-image``` to create a virtual machine. 
+
+2. Set up the basic tab like normal and the disk tab.
+
+![](/images/screen.jpg)
+
+3. Go to Network tab  and change your virtual network to your new subnet you created earlier.
+
+![](/images/networkingtab2.jpg)
