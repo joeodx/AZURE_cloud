@@ -67,7 +67,8 @@ Now that is loading you can set up your application VM.
 ![](/images/app.jpg)
 
 3. Go to Network tab  and change your ```virtual network``` to your new subnet you created earlier. In my case it was ```tech258-joeod-3-subnet-vnet```
-   * Change the ```subnet``` to public subnet
-   * makesure you rename it to public-subnet
-* 
+   * Change the ```subnet``` to public subnet with the ```10.0.2.0/24```
+   * make sure You rename itit to public-subnet
+  
+![](/images/jpgd.jpg)
 
