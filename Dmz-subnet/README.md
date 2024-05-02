@@ -44,6 +44,10 @@ We need to know how to set up a 3 subnet architecture. This will add security an
 
 ![](/images/screen.jpg)
 
-3. Go to Network tab  and change your virtual network to your new subnet you created earlier.
-
+3. Go to Network tab  and change your ```virtual network``` to your new subnet you created earlier. 
+   * Change the ```subnet``` to private subnet
+   * Change the ```public``` ip to none
+  
 ![](/images/networkingtab2.jpg)
+
+**For the db VM you will change it to private, for your NVA VM it will be the DMZ-subnet and for the app VM it will be public**
