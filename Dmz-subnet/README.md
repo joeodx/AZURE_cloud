@@ -36,20 +36,38 @@ We need to know how to set up a 3 subnet architecture. This will add security an
 
 ![](/images/addedd.jpg)
 
-## Part 2 - set up NVA Vm
+## Part 2 - Set up a db VM
 
-1. Now that you have set up your subnet go to your images and click on your ```db-deply-image``` to create a virtual machine. 
+1. Now that you have set up your subnet go to your images and click on your ```db-deply-image-db``` to create a virtual machine for your db. 
 
 2. Set up the basic tab like normal and the disk tab.
 
 ![](/images/screen.jpg)
 
-3. Go to Network tab  and change your ```virtual network``` to your new subnet you created earlier. 
+3. Go to Network tab  and change your ```virtual network``` to your new subnet you created earlier. In my case it was ```tech258-joeod-3-subnet-vnet```
    * Change the ```subnet``` to private subnet
    * Change the ```public``` ip to none
-  
+
+* We done need a public Ip because we should only ssh into our db.
+ 
 ![](/images/networkingtab2.jpg)
 
-**For the db VM you will change it to private, for your NVA VM it will be the DMZ-subnet and for the app VM it will be public**
+4. You dont need to add anything to user data for your db so just fill out the tags. then click review and create.
 
-4.
+![](/images/takes.jpg)
+
+## Part 3 - Set up a app VM
+
+Now that is loading you can set up your application VM.
+
+1.  Now that you have set up your db VM go to your images and click on your ```db-deply-image-app``` to create a virtual machine for your app. 
+   
+2.  Set up the basic tab like normal and the disk tab but allow HTTP ports 80.
+
+![](/images/app.jpg)
+
+3. Go to Network tab  and change your ```virtual network``` to your new subnet you created earlier. In my case it was ```tech258-joeod-3-subnet-vnet```
+   * Change the ```subnet``` to public subnet
+   * makesure you rename it to public-subnet
+* 
+
