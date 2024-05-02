@@ -44,7 +44,7 @@ Before you get started make sure your custom image is working properly. This is 
 
 ![](/images/imageadded.jpg)
 
-6. next change your virtual network to your own and make sure you have the correct ports in the network interface 
+6. Next change your virtual network to your own and make sure you have the correct ports in the network interface 
 
 ![](/images/network.jpg)
 
