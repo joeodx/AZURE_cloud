@@ -26,8 +26,9 @@ We need to know how to set up a 3 subnet architecture. This will add security an
    * The first will be for your deployed app VM so change the name to ```public-subnet``` and make sure the starting address is the following ```10.02.0/24```
    * The second will be for your Nva Vm. Give it the name ```DZN-subnet``` and make sure the starting address is ```10.0.3.0/24```
    * The third will be for your Database VM. Give it the name ```private subnet``` and the starting address to ```10.0.4.0``` 
+   * Make sure you change the zone to zone 1
 
-![](/images/ip.jpg)
+![](/images/when.jpg)
 
 
 4. Make sure to add your tags, check everything is correct and click create!
@@ -68,7 +69,36 @@ Now that is loading you can set up your application VM.
 
 3. Go to Network tab  and change your ```virtual network``` to your new subnet you created earlier. In my case it was ```tech258-joeod-3-subnet-vnet```
    * Change the ```subnet``` to public subnet with the ```10.0.2.0/24```
-   * make sure You rename itit to public-subnet
+   * Make sure to change it to zone 2
+   * make sure You renameit to public-subnet
   
 ![](/images/jpgd.jpg)
+
+4. Once you have done these settings post the following in user data 
+
+```
+#!/bin/bash
+
+echo cd app folder
+cd repo/app
+echo done!
+
+echo set DB_HOST env var
+export DB_HOST=mongodb://10.0.4.4:27017/posts
+echo done!
+
+echo install npm
+npm install
+echo done!
+
+echo killed back
+pm2 kill
+echo done
+
+echo install pm2
+pm2 start app.js app
+echo done
+``` 
+
+5. 
 
