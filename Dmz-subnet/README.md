@@ -100,5 +100,16 @@ pm2 start app.js app
 echo done
 ``` 
 
-5. 
+5. Then click review and create.
+
+![](/images/takes.jpg)
+
+
+## Part 4 - Set up a NVA VM
+
+Now we are going to create our NVA VM 
+
+1. We can just 
+
+
 
