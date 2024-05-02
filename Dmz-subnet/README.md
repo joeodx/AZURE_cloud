@@ -51,3 +51,5 @@ We need to know how to set up a 3 subnet architecture. This will add security an
 ![](/images/networkingtab2.jpg)
 
 **For the db VM you will change it to private, for your NVA VM it will be the DMZ-subnet and for the app VM it will be public**
+
+4.
