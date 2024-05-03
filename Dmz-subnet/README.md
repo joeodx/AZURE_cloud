@@ -144,7 +144,20 @@ One these are all created have them in their own seperate tab on your browser. T
 
 5. Fill out the tags and click review and create. Make sure everything is filled out correctly!
 
-6. Clcik create.
+6. Click create. While this is deploying check your ping command is still working and your post page.
+
+7. Once your route table is deployed, go to settings and then click on routes to add a route. 
+
+
+9. Once you have done that fill out the settings lik below.
+
+* Change the name to ```to private-subnet-route```
+* The destination type to ```IP Adresses```
+* Destination IP to the private subnet cider block which is for me ```10.0.4.0/24```
+* The next hope type to ```Virtual Appliance```
+* The next hop address to the private ip adress of your NVA which is for me ```10.0.3.4```
+
+![](/images/won.jpg)
 
 
 
