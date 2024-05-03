@@ -89,5 +89,44 @@ aws s3 ls
 
 # Part 2 - Crud commands in Aws s3
 ******************
-* 
+* If you want to **create a new bucket**, use the follwoing command ( I am going to use my name for the example): 
+```
+aws s3 mb s3://tech258-joe-first-bucket # --region eu-west-1
+```
+
+  If you get rid of the ```region eu-west-1``` command, the region will be set to the same region you used to set up your VM. 
+
+*  If you want to **list a bucket**, use the following command : 
+   
+```
+aws s3 ls s3://tech258-muyis-first-bucket
+```
+   If you want to **upload a file to a bucket**, use the following command : 
+   1. First make the file : 
+```
+echo This is the first line in a test file > test.txt
+```
+2. Then copy into the file
+```
+aws s3 cp test.txt s3://tech258-muyis-first-bucket
+```
+
+* Downlaod fiels from the bucket 
+  ```
+  mkdir downloads
+  ```
+
+* sync to copy 
+  ```
+  aws s3 sync s3://tech258-muyis-first-bucket
+  ```
+* rm to remopve a file 
+```
+aws s3 rm s3://tech258-muyis-first-bucket/test.txt
+```
+
+
+
+
+
 
