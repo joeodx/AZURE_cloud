@@ -159,8 +159,21 @@ One these are all created have them in their own seperate tab on your browser. T
 
 ![](/images/won.jpg)
 
+10. The virtual route is now set up.
 
+## Part 6 : Enabiling IP forwarding
 
+* Enabling forward IP typically refers to configuring a device or a network to allow the forwarding of IP packets from one network interface to another. 
+* This is commonly used in networking setups where you have multiple network segments or subnets and need to allow traffic to flow between them.
 
+1. Go to your NVA device overview, and click on networking. Then click on the tab at the top with the ip address.
+
+![](/images/NETWORKNVA.jpeg)
+
+2. Click the tab ```enable ip address```
+
+![](/images/enableip.jpg)
+
+3. 
 
 
