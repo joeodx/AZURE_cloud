@@ -109,7 +109,45 @@ echo done
 
 Now we are going to create our NVA VM 
 
-1. We can just 
+1. We can just create a new virtual machine for our NVA. We dont need to use a image here we can just create one brand new. 
+
+2. Set up the basics tab like normal renaming it to nva subnet.
+
+![](/images/ubuntu.jpg)
+
+3. Go to Network tab  and change your ```virtual network``` to your new subnet you created earlier. In my case it was ```tech258-joeod-3-subnet-vnet```
+   * Change the ```subnet``` to dmz-subnet ```10.0.3.0/24```
+   * Change the ```public``` ip to none
+
+![](/images/nva.jpg)
+
+4. Add tags and then click review and create!.
+
+## Part 5 - creating a route 
+
+One these are all created have them in their own seperate tab on your browser. This will mean it is much easier to access.
+
+1. SSh into your app vm. We are going to monitor the traffic going to the database. Once you have ssh into your app, type the following command 
+
+```ping <YourPrivateIpAddressOfDB>```
+
+![](/images/ping.jpg)
+
+2. Now we are going to need to create a route table. Go to the search bar and type in route tables
+
+![](/images/routetable.jpeg)
+
+4. Once you created fill out the liek below. Give it a name like ```to-private-subnet-rt```
+
+
+![](/images/routetables.jpeg)
+
+5. Fill out the tags and click review and create. Make sure everything is filled out correctly!
+
+6. Clcik create.
+
+
+
 
 
 
