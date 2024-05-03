@@ -189,13 +189,62 @@ print(bucket['Name'])
 ```
 ### Create an S3 Bucket 
 
-1. Create a python script file in your instance on gitbash 
+1. Create a python script file
    ```
    create-buckets.py
    ```
 
-In this 
+2. In this script have the following : 
 
+```
+import boto3
+
+# Create an S3 client
+s3 = boto3.client('s3')
+
+# Bucket name
+bucket_name = 'tech258-joe-test-boto3'
+
+# Specify the region (you could not include this if needed as it it will use default)
+region = 'eu-west-1'  
+
+# Create S3 bucket with the specified region
+s3.create_bucket(Bucket=bucket_name, CreateBucketConfiguration={'LocationConstraint': region})
+
+print(f"Bucket '{bucket_name}' created successfully in region '{region}'.")
+```
+
+## Upload file to bucket 
+
+
+1. Create a python script file
+   ```
+   upload_file.py
+   ```
+
+2. In this script have the following 
+
+```
+import boto3
+
+# Create an S3 client
+s3 = boto3.client('s3')
+
+# Bucket name
+bucket_name = 'tech258-joe-test-boto3'
+
+# Local file path
+local_file_path = '/path/to/local/file.txt'
+
+# S3 object key (file name in S3)
+s3_object_key = 'file.txt'
+
+# Upload file to S3 bucket
+s3.upload_file(local_file_path, bucket_name, s3_object_key)
+
+print(f"File '{local_file_path}' uploaded to bucket '{bucket_name}' as '{s3_object_key}'.")
+```
+*******************
 
 
 
