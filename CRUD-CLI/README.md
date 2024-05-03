@@ -148,7 +148,7 @@ aws s3 rm s3://tech258-muyis-first-bucket/test.txt
 
 # Boto3 Documentation 
 *************************
-## What is boto3? 
+## What is Boto3? 
 * Boto3 is the official AWS SDK for Python. It allows developers to interact with AWS services programmatically using Python scripts. 
 * Boto3 provides a high-level API that makes it easy to create, configure, and manage AWS resources, including S3 buckets and objects.
 
@@ -170,8 +170,8 @@ Now lets crerate our scripts!
 ```
 aws s3 ls
 ```
-
-Now you can run the script to lists all the S3 buckets 
+### List all the S3 buckets
+Now you can run the script to lists all the S3 buckets below : 
 
 ```
 import boto3
@@ -187,6 +187,15 @@ print("List of S3 Buckets:")
 for bucket in response['Buckets']:
 print(bucket['Name'])
 ```
+### Create an S3 Bucket 
+
+1. Create a python script file in your instance on gitbash 
+   ```
+   create-buckets.py
+   ```
+
+In this 
+
 
 
 
