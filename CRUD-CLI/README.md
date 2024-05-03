@@ -124,6 +124,36 @@ aws s3 cp test.txt s3://tech258-muyis-first-bucket
 ```
 aws s3 rm s3://tech258-muyis-first-bucket/test.txt
 ```
+## Part 3 - Delete commands 
+ 💥
+ You have to be extra careful with these commands: 
+
+* This will remove everything in a bucket
+  
+  ```
+  aws s3 rm s3://tech258-muyis-first-bucket --recursive
+  ```
+
+* Remove only empty buckets 
+  ```
+  aws s3 rb s3://tech258-muyis-first-bucket
+  ```
+* Remove the buckets and its contents 
+  ```
+  aws s3 rb s3://tech258-muyis-first-bucket --force
+  ```
+
+***************************
+
+
+# Boto3 Documentation 
+*************************
+## What is boto3? 
+* Boto3 is the official AWS SDK for Python. It allows developers to interact with AWS services programmatically using Python scripts. 
+* Boto3 provides a high-level API that makes it easy to create, configure, and manage AWS resources, including S3 buckets and objects.
+
+
+
 
 
 
